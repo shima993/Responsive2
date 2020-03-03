@@ -1,0 +1,143 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansationlight/sansationlight.woff);
+ }
+ 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: myFirstFont;
+  
+}
+
+
+html,body{
+    max-width: 100%;
+}
+
+body{
+    text-align: center;
+}
+
+
+
+.homepage-icon{
+   display: inline-block;
+    margin:0 auto; 
+    
+}
+
+header i{
+    color: white;
+    font-size: 120%;
+    border: 15px solid white;
+   
+    background-color: #e60000;
+    border-radius: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: -10%;
+    left: 45%;
+    padding-top: 5%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 1%;  
+    
+   
+}
+main{
+    width: 100%;
+    margin-top: 18px;
+}
+
+.general{
+
+    width: 23%;
+    display: inline-block;
+
+}
+
+
+@media only screen and (max-width: 740px)
+{
+    
+    .general{
+        width: 46%;
+    }
+}
+
+@media only screen and (max-width: 480px)
+{
+    
+    .general{
+        width: 100%;
+    }
+}
+
+main img{
+    display: block;
+    max-width: 100%;
+    border-radius: 2%;
+  }
+
+  .img{
+     padding: 2.5%;
+    
+  }
+
+  footer{
+      margin-top: 40px;
+      width: 100%;
+      background-color: #ff4d4d;
+      height: 80vh;
+  }
+
+  h1,p{
+
+    color: #ffd9cc;
+    text-align: center;
+  }
+
+  h1{
+      padding-top: 5%;
+  }
+
+ #footer-text {
+      width: 80%;
+     margin:0 auto;
+     padding-top: 30px;
+     font-size: 22px;
+      line-height: 35px;
+  }
+  
+  h3{
+      color:#ffd9cc ;
+      font-size:2em ;
+      margin-top: 50px;
+      margin-bottom: 40px;
+  }
+
+  hr{
+      display: inline-block;
+      width: 80%;
+      margin: 0 auto;
+      color: #ffd9cc;
+      size: 10px;
+      filter: opacity(0.4);
+  }
+
+footer a{
+    color: #ffd9cc;
+   
+}
+
+#copy-write{
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+#copy{
+    display: inline-block;
+    font-size: 1.8em;
+}
